@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react"
 import { SubjectList } from "./SubjectList"
-const setBeginninfOfUrlImage = "https://www.artic.edu/iiif/2/"
-const setEndOfUrlForImage = "/full/843,/0/default.jpg"
-
 export const ArtListItem = ({art}) => {
 
   return (

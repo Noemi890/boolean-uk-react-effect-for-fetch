@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { ArtListItem } from "./ArtListItem"
-const URL = 'https://api.artic.edu/api/v1/artworks'
+const URL = 'https://api.artic.edu/api/v1/artworks?fields=title,artist_title,subject_titles,image_id'
 
 export const ArtList = () => {
     const [art, setArt] = useState([])
